@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karo Creative</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header> 
+        <div class="container row">
+            <button class="nav-toggle" aria-label="open navigation">
+                <span class="hamburger"></span>
+            </button>
+            <a class="logo" href="#">
+                <img src="img/karocreative_logo.png" alt="KaroCreative logo">
+            </a>
+            <nav class="nav">
+                <ul class="nav__list nav__list--primary">
+                    <li class="nav__item"><a href="#intro" class="nav__link"><span class="nav__item--nr">01.</span>About</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link"><span class="nav__item--nr">10.</span>Work</a></li>
+                    <li class="nav__item"><a href="mailto:karolina_ankiewicz@o2.pl?subject=Regarding%20website%20creation&body=Hello%20Karo," class="nav__link"><span class="nav__item--nr">11.</span>Contact</a></li>
+                </ul>
+                <ul class="nav__list nav__list--secondary">
+                    <!-- <li class="nav__item"><a href="#" class="nav__link">Sign In</a></li> -->
+                    <li class="nav__item"><a href="https://www.linkedin.com/in/karolina-ankiewicz-a130106b/" class="nav__link nav__link--button" target="_blank">RESUME</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <!-- <section class="hero">
+        <div class="container row">
+            <div class="hero__text">
+                <h1>Responsive layouts don’t have to be a struggle</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                <a href="#" class="btn">I want to learn</a>
+            </div>
+            <img src="img/hero-img.jpg" alt="UX design sketches" class="hero__img">
+        </div>
+    </section>  -->
+
+    <main class="main container main__content__wrapper">
+        <section id="intro" class="section__kc">
+            <div class="section__content__wrapper">
+                <p>Hi, my name is</p>
+                <h2 class="h2--kc">Karolina</h2>
+                <h3 class="h3--kc">I'm a front end developer, with strong engineering background.</h3>
+                <p>I create the part of a website or web application that You as a user interact with directly. I design and build the user interface (UI), write code to implement UI designs, and create interactive features that enhance Your (aka user) experience.</p>
+                <p class="section__content__backtop"><a href="#" class="link__nostyle">back up..</a></p>
+            </div>
+        </section>
+       
+        
+            <!-- <section id="about" class="section__kc">
+                <div class="section__content__wrapper">
+                    <p>Hi, my name is</p>
+                    <h2 class="h2--kc">Karolina</h2>
+                    <h3 class="h3--kc">I'm a front end developer, with strong engineering background.</h3>
+                    <p>I create the part of a website or web application that You as a user interact with directly. I design and build the user interface (UI), write code to implement UI designs, and create interactive features that enhance Your (aka user) experience.</p>
+                </div>
+            </section> -->
+       
+
+        <section id="work" class="section__kc">
+            <div class="section__content__wrapper">
+                <h3 class="h3--kc">My work:</p>
+                <div class="list__work">
+                    
+                    <div class="li__work">
+                        <a href="https://wakethedead.eu" class="li__work__link" target="_blank">wakethedead.eu</a>
+                        <ul class="li__work__spec">
+                            <li>graphic design & logo design</li>
+                            <li>prototype in Figma</li>
+                            <li>responsive & accessible design</li>
+                            <li>implemented & build using HTML5, CSS3 and JavaScript</li>
+                            <li>SEO optimised & analitccs integrated </li>
+                            <li>secure</li>
+                        </ul>
+                    </div> 
+                    
+                    <div class="li__work">
+                        <a href="https://letgotohaveit.com" class="li__work__link" target="_blank">letgotohaveit.com</a>
+                       <ul class="li__work__spec">
+                            <li>graphic design & logo design</li>
+                            <li>prototype in Figma</li>
+                            <li>responsive & accessible design</li>
+                            <li>implemented in Wordpress</li>
+                            <li>build in Oxygen Builder </li>
+                            <li>SEO optimised & analitccs integrated </li>
+                            <li>secure</li>
+                        </ul>
+                    </div>
+                    <div class="li__work">
+                        <a href="https://kalafonia.com" class="li__work__link" target="_blank">kalafonia.com</a>
+                        <ul class="li__work__spec">
+                            <li>graphic design & logo design</li>
+                            <li>prototype in Figma</li>
+                            <li>responsive & accessible design</li>
+                            <li>implemented in Wordpress</li>
+                            <li>build in Oxygen Builder </li>
+                            <li>SEO optimised & analitccs integrated </li>
+                            <li>secure</li>
+                        </ul>
+                    </div>
+                    <!-- <div class="li__work">
+                        <a href="https://karocreative.pl" class="li__work__link" target="_blank">karocreative.pl</a>
+                        <ul class="li__work__spec">
+                            <li>graphic design & logo design</li>
+                            <li>prototype in Figma</li>
+                            <li>responsive & accessible design</li>
+                            <li>implemented & build using HTML5, CSS3 and JavaScript</li>
+                            <li>secure</li>
+                        </ul>
+                    </div>-->
+                    
+                    
+                </div>
+                <p class="section__content__backtop"><a href="#" class="link__nostyle">back up..</a></p>
+            </div>
+        </section>
+
+    </main>
+
+    
+
+    <script src="main.js"></script>
+
+</body>
+</html>
